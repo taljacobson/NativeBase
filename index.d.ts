@@ -207,7 +207,11 @@ declare module 'native-base' {
             inputButton?: boolean,
             full?:boolean,
             light?:boolean,
-            dark?:boolean
+            dark?:boolean,
+            /**
+            * [android] ripple affect in android devices
+            */
+            androidRippleColor?: boolean | string
         }
         /**
          * see Widget List.js
